@@ -13,6 +13,7 @@
 		99580D4F1E91BB4B0064E1EB /* DoIt2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 99580D4D1E91BB4B0064E1EB /* DoIt2.xcdatamodeld */; };
 		99580D511E91BB4B0064E1EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99580D501E91BB4B0064E1EB /* Assets.xcassets */; };
 		99580D541E91BB4B0064E1EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99580D521E91BB4B0064E1EB /* LaunchScreen.storyboard */; };
+		99953E721E91BC9400F26989 /* task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99953E711E91BC9400F26989 /* task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		99580D501E91BB4B0064E1EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99580D531E91BB4B0064E1EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99580D551E91BB4B0064E1EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99953E711E91BC9400F26989 /* task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				99580D461E91BB4B0064E1EB /* AppDelegate.swift */,
 				99580D481E91BB4B0064E1EB /* ViewController.swift */,
 				99580D4A1E91BB4B0064E1EB /* Main.storyboard */,
+				99953E711E91BC9400F26989 /* task.swift */,
 				99580D501E91BB4B0064E1EB /* Assets.xcassets */,
 				99580D521E91BB4B0064E1EB /* LaunchScreen.storyboard */,
 				99580D551E91BB4B0064E1EB /* Info.plist */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99953E721E91BC9400F26989 /* task.swift in Sources */,
 				99580D491E91BB4B0064E1EB /* ViewController.swift in Sources */,
 				99580D4F1E91BB4B0064E1EB /* DoIt2.xcdatamodeld in Sources */,
 				99580D471E91BB4B0064E1EB /* AppDelegate.swift in Sources */,
@@ -303,6 +307,7 @@
 				99580D5A1E91BB4B0064E1EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

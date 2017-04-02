@@ -11,10 +11,24 @@ import UIKit
 class CreateTaskViewController: UIViewController {
 
     
-    @IBOutlet var taskNameLabel: [UITextField]!
+    @IBOutlet weak var taskNameLabel: UITextField!
     @IBOutlet weak var taskImportant: UISwitch!
+    
+    var previousVC = TaskVC()
+    
+    
     @IBAction func addTapped(_ sender: Any) {
+        
+        //Create a teask with a task from the outler info
+        let task = Task()
+        task.name = taskNameLabel.text!
+        task.important = taskImportant.isOn
+        
+        //Add the task back to the original task array
+        
     }
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

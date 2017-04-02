@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TaskVC.swift
 //  DoIt2
 //
 //  Created by user120718 on 4/2/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class TaskVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -60,5 +60,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         performSegue(withIdentifier: "addSegue", sender: nil)
     }
+
+    
+    
 }
 

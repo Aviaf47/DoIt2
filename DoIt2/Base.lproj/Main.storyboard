@@ -13,7 +13,7 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ViewController" customModule="DoIt2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="TaskVC" customModule="DoIt2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -110,7 +110,7 @@
                     </view>
                     <connections>
                         <outlet property="taskImportant" destination="Wxe-ib-xJS" id="wAD-hW-RSJ"/>
-                        <outletCollection property="taskNameLabel" destination="5r7-5U-L28" collectionClass="NSMutableArray" id="fud-Zb-Or8"/>
+                        <outlet property="taskNameLabel" destination="5r7-5U-L28" id="fri-cX-mOp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yeV-Dv-veb" userLabel="First Responder" sceneMemberID="firstResponder"/>

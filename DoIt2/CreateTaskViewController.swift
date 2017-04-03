@@ -25,7 +25,9 @@ class CreateTaskViewController: UIViewController {
         task.important = taskImportant.isOn
         
         //Add the task back to the original task array
-        
+        previousVC.tasks.append(task)
+        previousVC.tableView.reloadData()
+        navigationController!.popViewController(animated: true)
     }
     
     
